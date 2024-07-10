@@ -1,0 +1,70 @@
+.navbar {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px;
+  display: flex; /* Arrange elements horizontally */
+  justify-content: space-between; /* Space items evenly */
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Vertically align content */
+  width: 100%; /* Full width container */
+  max-width: 1200px; /* Limit container width for larger screens */
+  margin: 0 auto; /* Center container horizontally */
+}
+
+.logo {
+  flex: 1; /* Take up remaining space after other elements */
+}
+
+.logo img {
+  max-width: 150px; /* Limit logo size */
+  
+}
+
+.search {
+  margin-right: 20px; /* Add margin to the right */
+}
+
+.search input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Rounded corners */
+  margin-right: 10px; /* Add margin to the right */
+}
+
+.search button {
+  padding: 10px 15px;
+  background-color: #E45F2B;
+  ;
+  color: #fff;
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Indicate clickable element */
+}
+
+.nav-links {
+  list-style: none; /* Remove default list style */
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px; /* Add margin between links */
+}
+
+.nav-links a {
+  text-decoration: none; /* Remove underline */
+  color: #333;
+  font-weight: bold;
+}
+
+.icons { /* Styles for the new icons container */
+  display: flex;
+}
+
+.icons svg { /* Assuming icons are rendered as SVGs */
+  margin-left: 20px; /* Add margin between icons */
+  fill:currentColor; /* Inherit color from parent element */
+}
