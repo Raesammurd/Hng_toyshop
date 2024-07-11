@@ -4,6 +4,8 @@ import {Navbar} from "./component/navbar";
 import { Shop } from './pages/shop/shop';
 import { Cart } from './pages/cart/cart';
 import Hero from './component/hero';
+import Display from './component/display';
+
 
 
 
@@ -13,6 +15,8 @@ function App() {
     <Router>
       <Navbar/>
       <Hero/>
+      <Display/>
+   
       <Routes>
         <Route path="/" element={<Shop/>}/>
         <Route path="/cart" element={<Cart/>}/>

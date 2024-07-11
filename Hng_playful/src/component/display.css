@@ -1,0 +1,60 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; /* Adjust as needed */
+}
+
+.display {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple rows */
+  margin: 20px auto; /* Center the section horizontally */
+  width: 80%; /* Adjust width as needed */
+}
+
+
+.display-cont {
+  margin: 10px; /* Spacing between items */
+  text-align: left; /* Align content within each item */
+  background-color: rgba(211, 123, 231, 1);
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: all 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+
+.display-2 {
+ padding-top: 2.2rem;
+  background-color: #eee; /* Light gray */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: all 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.display-2 > h2 {
+ 
+}
+
+
+.display-cont:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.display-cont img {
+  width: 100%;
+  height: 200px; /* Adjust image height as needed */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+h2 {
+  font-size: 18px; /* Adjust heading size as needed */
+  margin: 10px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.price span {
+  font-weight: bold;
+  color: #333; /* Adjust price color */
+}
