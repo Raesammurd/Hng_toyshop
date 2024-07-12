@@ -1,0 +1,15 @@
+.all {
+  background-color: #A0E548; /* Light green background */
+  height: 3rem; /* Set height to 2rem */
+  width: 100%; /* Full width of the page */
+  display: flex; /* Allow horizontal arrangement of content */
+  align-items: center; /* Align content vertically in the middle */
+  justify-content: center; /* Align content horizontally in the middle */
+  color: white;
+}
+
+.all h3 {
+  margin: 0; /* Remove default margin */
+  font-size: 1rem; /* Adjust font size as needed */
+  color: #fff; /* White text color for better contrast */
+}

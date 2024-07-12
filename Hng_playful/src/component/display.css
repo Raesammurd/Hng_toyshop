@@ -24,14 +24,16 @@ body {
 
 
 .display-2 {
+  padding-left: 0.6rem;
+  padding-bottom: 0.5rem;
  padding-top: 2.2rem;
-  background-color: #eee; /* Light gray */
+  background-color: white; /* Light gray */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   transition: all 0.2s ease-in-out; /* Smooth hover effect */
 }
 
 .display-2 > h2 {
- 
+  font-size: 1rem;
 }
 
 
@@ -47,14 +49,19 @@ body {
 
 h2 {
   font-size: 18px; /* Adjust heading size as needed */
-  margin: 10px 0;
+  margin-top: -2rem;
 }
 
 p {
   margin: 0;
 }
 
-.price span {
+.price {
+  font-size: .7rem;
+}
+
+.price >  span {
   font-weight: bold;
   color: #333; /* Adjust price color */
+  font-size: 1rem;
 }

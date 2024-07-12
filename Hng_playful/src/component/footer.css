@@ -1,0 +1,31 @@
+.foooter {
+  background-color: rgba(228, 95, 43, 1); /* Orange background */
+  padding: 0px; /* Add some padding */
+  color: #fff; /* White text color for better contrast */
+  display: flex; /* Arrange sections side-by-side */
+  justify-content: space-between; /* Distribute sections evenly */
+}
+
+.foooter h3 {
+  margin-bottom: 10px; /* Space between headings and lists */
+}
+
+.foooter ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default list padding */
+  margin: 0; /* Remove default list margin */
+}
+
+.foooter ul li {
+  margin-bottom: 5px;
+  color: #e0bbbb; /* Space between list items */
+}
+
+.foooter a {
+  color: inherit; /* Inherit white text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.foooter a:hover {
+  color: #ddd; /* Light orange hover color */
+}
