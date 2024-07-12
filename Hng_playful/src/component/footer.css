@@ -1,6 +1,6 @@
 .foooter {
   background-color: rgba(228, 95, 43, 1); /* Orange background */
-  padding: 0px; /* Add some padding */
+  padding: 60px; /* Add some padding */
   color: #fff; /* White text color for better contrast */
   display: flex; /* Arrange sections side-by-side */
   justify-content: space-between; /* Distribute sections evenly */
