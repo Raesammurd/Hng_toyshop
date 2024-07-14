@@ -7,6 +7,9 @@ import Hero from './component/hero';
 import Display from './component/display';
 import Footer from './component/foooter';
 import All from './component/all';
+import ProductList from './component/productlist';
+import '@mantine/core/styles.css';
+
 
 
 
@@ -17,6 +20,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <All/>
+      <ProductList/>
       <Display/>
       <Footer/>
       <Routes>
